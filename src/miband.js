@@ -13,8 +13,8 @@ const UUID_SERVICE_FIRMWARE =           UUID_BASE('1530')
 const UUID_SERVICE_ALERT_NOTIFICATION = 0x1811
 const UUID_SERVICE_IMMEDIATE_ALERT =    0x1802
 const UUID_SERVICE_HEART_RATE =         0x180d
-const UUID_SERVICE_MIBAND_1 =           0xfee0
-const UUID_SERVICE_MIBAND_2 =           0xfee1
+const UUID_SERVICE_MIBAND_1 =           0xfea0
+//const UUID_SERVICE_MIBAND_2 =           0xfee1
 
 // This is a helper function that constructs an ArrayBuffer based on arguments
 const AB = function() {
@@ -53,7 +53,7 @@ function parseDate(buff) {
 
 class MiBand extends EventEmitter {
 
-  static get advertisementService() { return 0xFEE0; }
+  static get advertisementService() { return 0xFEA0; }
 
   static get optionalServices() { return [
     UUID_SERVICE_GENERIC_ACCESS,
