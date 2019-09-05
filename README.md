@@ -15,7 +15,7 @@ You should be able to bind it back again, but no guaranee here ;)
 
 ### Browser
 
-[![LIVE DEMO](https://github.com/vshymanskyy/miband-js/raw/master/public/live-demo-btn.png)](https://tiny.cc/miband-js)
+[![LIVE DEMO](https://github.com/vshymanskyy/miband-js/raw/master/public/live-demo-btn.png)](https://chelonko.github.io/miband-js)
 
 You need a browser with [WebBluetooth support](https://github.com/WebBluetoothCG/web-bluetooth/blob/master/implementation-status.md). Tested with:
 - Chrome on OS X (Yosemite or later)
